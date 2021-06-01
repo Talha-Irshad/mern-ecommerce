@@ -7,6 +7,7 @@ const data={
             image:'images/p1.jpg',
             price:1000,
             brand:'Nike',
+            countInStock:10,
             rating:4.5,
             numReviews:10,
             description:'High Quality Shirt from Nike'
@@ -18,8 +19,9 @@ const data={
             image:'images/p2.jpg',
             price:1200,
             brand:'Nike',
-            rating:4.5,
-            numReviews:10,
+            countInStock:10,
+            rating:3.5,
+            numReviews:20,
             description:'High Quality Shirt from Nike'
         },
         {
@@ -29,8 +31,9 @@ const data={
             image:'images/p3.jpg',
             price:1400,
             brand:'Nike',
-            rating:4.5,
-            numReviews:10,
+            countInStock:10,
+            rating:4,
+            numReviews:40,
             description:'High Quality Shirt from Nike'
         },
         {
@@ -40,8 +43,9 @@ const data={
             image:'images/p4.jpg',
             price:1100,
             brand:'Adidas',
+            countInStock:10,
             rating:4.5,
-            numReviews:10,
+            numReviews:30,
             description:'High Quality Shirt from Nike'
         },
         {
@@ -50,8 +54,9 @@ const data={
             category:'trousers',
             image:'images/p5.jpg',
             price:1300,
-            brand:'Nike',
-            rating:4.5,
+            brand:'Adidas',
+            countInStock:10,
+            rating:5,
             numReviews:10,
             description:'High Quality Shirt from Nike'
         },
@@ -61,8 +66,9 @@ const data={
             category:'trousers',
             image:'images/p6.jpg',
             price:1400,
-            brand:'Nike',
-            rating:4.5,
+            brand:'Adidas',
+            countInStock:10,
+            rating:3.5,
             numReviews:10,
             description:'High Quality Shirt from Nike'
         },
@@ -73,8 +79,9 @@ const data={
             image:'images/p1.jpg',
             price:1400,
             brand:'Nike',
+            countInStock:10,
             rating:4.5,
-            numReviews:10,
+            numReviews:30,
             description:'High Quality Shirt from Nike'
         },
         {
@@ -83,8 +90,9 @@ const data={
             category:'trousers',
             image:'images/p2.jpg',
             price:1400,
-            brand:'Nike',
-            rating:4.5,
+            brand:'Adidas',
+            countInStock:10,
+            rating:2.5,
             numReviews:10,
             description:'High Quality Shirt from Nike'
         },
@@ -95,8 +103,9 @@ const data={
             image:'images/p3.jpg',
             price:1400,
             brand:'Nike',
-            rating:4.5,
-            numReviews:10,
+            countInStock:10,
+            rating:4,
+            numReviews:50,
             description:'High Quality Shirt from Nike'
         },
         {
@@ -106,50 +115,55 @@ const data={
             image:'images/p4.jpg',
             price:1400,
             brand:'Nike',
-            rating:4.5,
-            numReviews:10,
+            countInStock:10,
+            rating:4,
+            numReviews:30,
             description:'High Quality Shirt from Nike'
         },
         {
             _id:'11',
-            name:'Plain Adidas white trousers',
+            name:'Plain Adidas black trousers',
             category:'trousers',
             image:'images/p5.jpg',
             price:1400,
-            brand:'Nike',
+            brand:'Adidas',
+            countInStock:10,
             rating:4.5,
             numReviews:10,
             description:'High Quality Shirt from Nike'
         },
         {
             _id:'12',
-            name:'Plain Adidas white trousers',
+            name:'Trousers',
             category:'trousers',
             image:'images/p6.jpg',
             price:1400,
-            brand:'Nike',
+            brand:'Adidas',
+            countInStock:10,
             rating:4.5,
             numReviews:10,
             description:'High Quality Shirt from Nike'
         },
         {
             _id:'13',
-            name:'Plain Adidas white trousers',
+            name:'Plain white trousers',
             category:'trousers',
             image:'images/p3.jpg',
             price:1400,
-            brand:'Nike',
+            brand:'Adidas',
+            countInStock:10,
             rating:4.5,
             numReviews:10,
             description:'High Quality Shirt from Nike'
         },
         {
             _id:'14',
-            name:'Plain Adidas white trousers',
+            name:'Plain Adidas trousers',
             category:'trousers',
             image:'images/p2.jpg',
             price:1400,
-            brand:'Nike',
+            brand:'Adidas',
+            countInStock:10,
             rating:4.5,
             numReviews:10,
             description:'High Quality Shirt from Nike'
